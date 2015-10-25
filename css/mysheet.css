@@ -1,0 +1,80 @@
+#labels{
+	position:fixed;
+	z-index:10;
+	width:100%;
+	padding-bottom:7px;
+}
+#logo{
+	width: 150px;
+}
+.download{
+	border: 1px solid #fff;
+	padding:10px;
+	margin-top:13px;
+	margin-right: 8px;
+	float: right;
+}
+
+.nav li{
+	display: inline;
+}
+
+.backmat{
+	margin-top:-10em;
+}
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.headline{
+	color:#bbb;
+}
+
+.catchphrase{
+	position:relative; 
+	top:-325px;
+	z-index:2;
+	float: left;
+	/*padding-top:75px;*/
+}
+
+.footer a img{
+	width:50px;
+	height:50px;
+}
+
+.fadeeffect{
+	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .0001) 100%);
+	background-image:      -o-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .0001) 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+	background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	background-repeat: repeat-x;
+}
+
+.carousel.fade .item {
+  -moz-transition: opacity ease-in-out 1s;
+  -o-transition: opacity ease-in-out 1s;
+  -webkit-transition: opacity ease-in-out 1s;
+  transition: opacity ease-in-out 1s;
+  left: 0 !important;
+  opacity: 0;
+  top:0;
+  position:absolute;
+  width: 100%;
+  display:block !important;
+  z-index:1;
+}
+.carousel.fade .item:first-child {
+  top:auto;
+  position:relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out 1s;
+  -o-transition: opacity ease-in-out 1s;
+  -webkit-transition: opacity ease-in-out 1s;
+  transition: opacity ease-in-out 1s;
+  z-index:2;
+}
