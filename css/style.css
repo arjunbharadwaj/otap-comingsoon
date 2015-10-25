@@ -7,7 +7,7 @@ margin:0;
 padding:0;
 /*background-color: #23a889;*/
 font-family: Helvetica Neue, Helvetica, Arial;
-color: #fff;
+/*color: #fff;*/
 }
 
 .jumbotron{
@@ -90,7 +90,7 @@ font-weight: 500;
 /*a:hover.get_notified{
 background: url(../button.png) left bottom no-repeat;
 color: #ffffff;
-}*/
+}
 
 .shadow{
 width: 100%;
@@ -162,7 +162,7 @@ background: #ffffff url(social.png) 34px -74px no-repeat;
 
 ul.social li a:hover.googleplus{
 background: #ee5627 url(social.png) -43px -74px no-repeat;
-}*/
+}
 
 ul.social li a.twitter{
 background: #ffffff url(social.png) 34px 10px no-repeat;
@@ -202,7 +202,7 @@ background: #ffffff url(social.png) 34px -327px no-repeat;
 
 ul.social li a:hover.pinterest{
 background: #ee5627 url(social.png) -43px -327px no-repeat;
-}*/
+}
 
 .copyright{
 width: 140px;
@@ -219,4 +219,4 @@ color: #666666;
 .copyright p span{
 font-size: 12px;
 color: #ee5627;
-}
+}*/
